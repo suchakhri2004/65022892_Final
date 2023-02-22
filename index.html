@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <table width=30% cellpadding="4" cellspacing="1" style="border:1px solid #dcdc77;"><tr><td bgcolor="#dcdc77"style="border-style:solid;border-width:4px;border-color:#dcdc77 gray gray #dcdc77;">
+            <center>
+    <h3><label for="">Name</label>
+        <br>
+        <input type="text" name="Name" id="Name""></h3>
+        <h3><label for="">Surname</label>
+            <br>    
+            <input type="text" name="Surname" id="Surname"></h3>
+            
+            <h3><label for="">Gender</label>
+                <br>    
+                <select id="menu" onchange="selmenu()">
+                <option value="ไม่ระบุเพศ">ไม่ระบุเพศ</option>
+                <option value="ชาย">ชาย</option>
+                <option value="หญิง">หญิง</option>
+            </select>
+
+                <h3><label for="">Birth Dath</label>
+                    <br>
+                    <input type="date" id="birthday">
+                    <div id="result"></div></h3>
+                    <input type="submit" value="Add"/>
+                </center>
+                </td></tr></table>
+            </center>   
+
+            <table width=100% border="1" bordercolor="#000000">
+                <tr>
+                  <td bgcolor="yellow">Name</td>
+                  <td bgcolor="yellow">Surname</td>
+                  <td bgcolor="yellow">Gender</td>
+                  <td bgcolor="yellow">Birth date</td>
+                </tr>
+                <tr>
+                  <td><br></td>
+                  <td><br></td>
+                  <td><br></td>
+                  <td><br></td>
+                </tr>
+              </table>
+    <script src="Final.js"> </script>
+</body>
+</html>
